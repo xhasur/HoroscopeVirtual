@@ -4,18 +4,6 @@ image:https://img.shields.io/badge/vert.x-4.4.6-purple.svg[link="https://vertx.i
 
 This application was generated using http://start.vertx.io
 
-== Building
-
-To launch your tests:
-```
-./mvnw clean test
-```
-
-To package your application:
-```
-./mvnw clean package
-```
-
 To run your application:
 ```
 ./mvnw clean compile exec:java
@@ -49,4 +37,28 @@ http://localhost:8888/signs/
 ]
 
 ```
+http://localhost:8888/signs/1
+```
 
+{
+	"id": 1,
+	"name": "Aries",
+	"since": "03/21",
+	"until": "04/19",
+	"characteristics": "Competitive"
+}
+```
+http://localhost:8888/signs/12
+
+http://localhost:8888/signs/1
+```
+
+{
+	"id": 1,
+	"name": "Aries",
+	"since": "03/21",
+	"until": "04/19",
+	"characteristics": "Competitive"
+}
+
+```
